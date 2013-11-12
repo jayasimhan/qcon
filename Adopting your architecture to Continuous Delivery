@@ -1,0 +1,59 @@
+
+Conways law
+  Organizations wich design system are constrained to deisgn which are copies of the communication structures of these oraganizations
+Keep things small
+Evolve your architecture
+
+
+Release Frequently
+
+feedback from users
+reduce risk
+Real Project progress
+
+
+Architecture - Stuff that's hard to change
+
+
+The wrong side of conways law
+
+
+
+branch by abstraction.
+
+
+### Keeping things small
+Micro Service
+Large Monolith backlash
+Simple and small
+
+#### why?
+
+
+Communication between services
+- REST
+
+Monitoring
+you have to monitor your services to determine
+- if it is alive?
+- if it is being a bottleneck
+
+
+Replaceable Services
+Evolve your architecture
+
+Evolutionalry Architecture and Emergent Design
+
+*Avoid decisions that are irreversible*
+
+###Evolutionary Architecture
+Green field architectures
+1. Make decisions at the Last Responsbile Moment
+2. Architect for evolvability
+3. Postel's Law
+4. Architect for Testability
+
+**If your teams dont look like how you want your system to be, your system will look like how your teams look.**
+
+
+It's really hard to retroactively do CD,  even CI
