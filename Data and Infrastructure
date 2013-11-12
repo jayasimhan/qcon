@@ -1,0 +1,43 @@
+
+
+##Apache Mesos
+
+Distributed operating system
+
+Master/Slave architecture
+
+One master is elected among themselves as master. If a master fails another Master is chosen.
+
+
+at the core of Mesos is
+
+* libprocess
+  - async message processing library
+* master
+  - couple of masters. One of them is elected a leader.
+* Slave
+* Framework
+
+Slaves
+1. Slaves execute tasks whichs are submitted by framekworks
+
+System resources are allocated to slaved.
+
+Mesos Frameworks
+- Hadoop
+  * Batch processing
+- Storm  
+  * Stream processing framework
+  * Realtime processing for what Hadoop does for Batch processing
+- Chronos 
+  * Task Scheduler. Its like a distributed cron.
+- Aurora
+  * Service frmakework to run long running services, for example run web services
+- Marathon
+  * Runing services similar to Aurora.
+  * More like a meta framework
+#### Marathon
+Marathon can be used like a meta framework. You can run other frameworks using Marathon. So you can use marathon to start a bunch of marathons.
+
+nginx watches zookeeper config that redirects requests to slaves
+
